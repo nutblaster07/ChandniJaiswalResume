@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandni Jaiswal — Data Analyst & MBA</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/src/index.js" defer></script>
+  <!-- Fallback: ensure content is always visible even if CSS/JS has issues -->
+  <noscript>
+    <style>.fade-up { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+  <style>
+    /* Progressive enhancement — sections are visible by default,
+       JS adds the .visible class to trigger the slide-up transition */
+  </style>
+</head>
+<body>
+
+  <!-- Grain overlay for texture -->
+  <div class="grain"></div>
+
+  <!-- =============================================
+       NAVIGATION
+  ============================================= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">CJ</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Internship</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       HERO
+  ============================================= -->
+  <section class="hero" id="hero">
+    <!-- Geometric background decoration -->
+    <div class="hero-geo">
+      <div class="geo-ring geo-ring-1"></div>
+      <div class="geo-ring geo-ring-2"></div>
+      <div class="geo-ring geo-ring-3"></div>
+      <div class="geo-dots"></div>
+    </div>
+
+    <div class="hero-inner">
+      <!-- Profile photo -->
+      <div class="photo-wrap">
+        <div class="photo-frame">
+          <img src="./profile.jpg" alt="Chandni Jaiswal" class="profile-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="photo-fallback">
+            <i class="ph ph-user"></i>
+          </div>
+          <div class="photo-border"></div>
+          <div class="photo-corner tl"></div>
+          <div class="photo-corner tr"></div>
+          <div class="photo-corner bl"></div>
+          <div class="photo-corner br"></div>
+        </div>
+        <div class="photo-badge">
+          <i class="ph ph-chart-bar"></i>
+          <span>Data Analyst</span>
+        </div>
+      </div>
+
+      <!-- Hero text -->
+      <div class="hero-text">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-line"></span>
+          <span>MBA · Data Analytics · BI</span>
+        </div>
+        <h1 class="hero-name">
+          <span class="name-first">Chandni</span>
+          <em class="name-last">Jaiswal</em>
+        </h1>
+        <p class="hero-desc">
+          Turning raw data into actionable stories — from 100k-row e-commerce datasets 
+          to Power BI dashboards that drive real decisions.
+        </p>
+        <div class="hero-pills">
+          <span class="pill"><i class="ph ph-chart-pie-slice"></i> Power BI</span>
+          <span class="pill"><i class="ph ph-chart-line"></i> Tableau</span>
+          <span class="pill"><i class="ph ph-code"></i> Python</span>
+          <span class="pill"><i class="ph ph-database"></i> SQL</span>
+          <span class="pill"><i class="ph ph-brain"></i> IBM Cognos</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-fill">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="scroll-hint">
+      <div class="scroll-wheel"></div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       ABOUT / SKILLS
+  ============================================= -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">01 — Profile</span>
+        <h2>Skills &amp; Summary</h2>
+      </div>
+
+      <div class="about-layout">
+        <!-- Tools -->
+        <div class="skills-block fade-up delay-1">
+          <h3 class="block-title"><i class="ph ph-wrench"></i> Tools &amp; Platforms</h3>
+          <div class="tool-grid">
+            <span class="tool-chip">C / C++</span>
+            <span class="tool-chip">Python</span>
+            <span class="tool-chip">Java</span>
+            <span class="tool-chip">SQL</span>
+            <span class="tool-chip">Tableau</span>
+            <span class="tool-chip">Power BI</span>
+            <span class="tool-chip">IBM Cognos</span>
+            <span class="tool-chip">Google Colab</span>
+            <span class="tool-chip">HTML / CSS</span>
+            <span class="tool-chip">MS Office</span>
+            <span class="tool-chip">Behance</span>
+            <span class="tool-chip">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <!-- Power skills -->
+        <div class="skills-block fade-up delay-2">
+          <h3 class="block-title"><i class="ph ph-lightning"></i> Power Skills</h3>
+          <div class="power-skills">
+            <div class="ps-item"><span class="ps-dot"></span>Leadership</div>
+            <div class="ps-item"><span class="ps-dot"></span>Team Player</div>
+            <div class="ps-item"><span class="ps-dot"></span>Adaptability</div>
+            <div class="ps-item"><span class="ps-dot"></span>Fast Learner</div>
+            <div class="ps-item"><span class="ps-dot"></span>Time Management</div>
+            <div class="ps-item"><span class="ps-dot"></span>Quick Thinker</div>
+            <div class="ps-item"><span class="ps-dot"></span>Patience</div>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="skills-block stats-block fade-up delay-3">
+          <div class="stat-item">
+            <div class="stat-num-row"><span class="stat-n" data-target="100">0</span><span class="stat-unit">k+</span></div>
+            <span class="stat-l">Records Analyzed</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num-row"><span class="stat-n" data-target="30">0</span><span class="stat-unit">%</span></div>
+            <span class="stat-l">Reporting Efficiency ↑</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num-row"><span class="stat-n" data-target="55">0</span><span class="stat-unit">+</span></div>
+            <span class="stat-l">Survey Respondents</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <div class="stat-num-row"><span class="stat-n">₹12k</span></div>
+            <span class="stat-l">Business Revenue</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       INTERNSHIP
+  ============================================= -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">02 — Work</span>
+        <h2>Internship Experience</h2>
+      </div>
+
+      <div class="exp-card fade-up delay-1">
+        <div class="exp-left">
+          <div class="exp-logo"><i class="ph ph-sun"></i></div>
+          <div class="exp-line"></div>
+        </div>
+        <div class="exp-right">
+          <div class="exp-meta">
+            <div>
+              <h3>Data Analyst Intern</h3>
+              <p class="exp-company">Urja Solar &nbsp;·&nbsp; Remote</p>
+            </div>
+            <span class="exp-date">Aug 2024 – Sep 2024</span>
+          </div>
+          <ul class="exp-bullets">
+            <li>Analysed sales and energy data to identify performance trends and optimization opportunities</li>
+            <li>Built dashboards and forecasting models using <strong>Power BI, Excel, and Python</strong></li>
+            <li>Conducted market research to support strategic decisions in the renewable energy sector</li>
+          </ul>
+          <div class="exp-tags">
+            <span>Excel</span><span>Power BI</span><span>Python</span>
+            <span>Data Analysis</span><span>Communication</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       PROJECTS
+  ============================================= -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">03 — Work</span>
+        <h2>Projects &amp; Live Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="proj-card fade-up delay-1">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="ph ph-chart-bar"></i></span>
+            <span class="proj-date">Mar 2026</span>
+          </div>
+          <h3>Retail &amp; Healthcare Data Dashboard</h3>
+          <p class="proj-sub">D-Mart &amp; COVID-19 Analysis</p>
+          <p class="proj-desc">Developed Power BI dashboards for D-Mart dataset (50,000+ records). Built Tableau dashboards for COVID-19 patient data with 10+ KPIs, improving reporting efficiency by 30%.</p>
+          <div class="proj-stack">
+            <span>Power BI</span><span>Tableau</span><span>Data Visualization</span>
+          </div>
+          <div class="proj-highlight">50k+ records &nbsp;·&nbsp; 30% efficiency ↑</div>
+        </div>
+
+        <div class="proj-card fade-up delay-2">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="ph ph-fork-knife"></i></span>
+            <span class="proj-date">Dec 2025</span>
+          </div>
+          <h3>MealMind</h3>
+          <p class="proj-sub">Intelligent Lunch Box</p>
+          <p class="proj-desc">Market research with 55+ respondents. Designed cost sheet and target costing model (₹500 selling price, 10% profit margin) with profitability analysis.</p>
+          <div class="proj-stack">
+            <span>Market Research</span><span>Cost Modeling</span><span>Excel</span>
+          </div>
+          <div class="proj-highlight">55+ respondents &nbsp;·&nbsp; ₹500 target price</div>
+        </div>
+
+        <div class="proj-card fade-up delay-3">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="ph ph-magnifying-glass-plus"></i></span>
+            <span class="proj-date">Nov 2025</span>
+          </div>
+          <h3>Exploratory Data Analysis</h3>
+          <p class="proj-sub">Brazilian E-Commerce (Olist) · LPU</p>
+          <p class="proj-desc">End-to-end EDA on 100k+ records using Python (NumPy, Pandas). Visualizations via Matplotlib & Seaborn — sales trends, customer behavior, payment & delivery performance.</p>
+          <div class="proj-stack">
+            <span>Python</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span>
+          </div>
+          <div class="proj-highlight">100k+ records &nbsp;·&nbsp; Full EDA pipeline</div>
+        </div>
+
+        <div class="proj-card fade-up delay-1">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="ph ph-sparkle"></i></span>
+            <span class="proj-date">Sep 2025</span>
+          </div>
+          <h3>Nirvana Jewellery Business</h3>
+          <p class="proj-sub">Entrepreneurship · LPU</p>
+          <p class="proj-desc">Founded & led jewellery business "Where Elegance Meets Art" with a team of 4. Oversaw operations, marketing & customer engagement. Achieved ₹12,000+ in profitable sales.</p>
+          <div class="proj-stack">
+            <span>Entrepreneurship</span><span>Social Media</span><span>Brand Strategy</span>
+          </div>
+          <div class="proj-highlight">₹12,000+ revenue &nbsp;·&nbsp; Team of 4</div>
+        </div>
+
+        <div class="proj-card fade-up delay-2">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="ph ph-hospital"></i></span>
+            <span class="proj-date">May 2023</span>
+          </div>
+          <h3>Hospital Management System</h3>
+          <p class="proj-sub">Web Application · NBU</p>
+          <p class="proj-desc">Full web-based application for patient records, doctor appointments, billing & inventory. Implemented auth, patient registration, appointment scheduling & report generation.</p>
+          <div class="proj-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+          </div>
+          <div class="proj-highlight">Automated hospital workflows end-to-end</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CERTIFICATIONS
+  ============================================= -->
+  <section class="section certs">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">04 — Credentials</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="certs-list">
+        <div class="cert-row fade-up delay-1">
+          <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+          <div class="cert-info">
+            <span class="cert-name">Crash Course on Python</span>
+            <span class="cert-issuer">Google</span>
+          </div>
+          <span class="cert-date">Dec 2022</span>
+        </div>
+        <div class="cert-row fade-up delay-2">
+          <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+          <div class="cert-info">
+            <span class="cert-name">Data Visualization: Empowering Business with Effective Insights</span>
+            <span class="cert-issuer">Tata</span>
+          </div>
+          <span class="cert-date">Sep 2025</span>
+        </div>
+        <div class="cert-row fade-up delay-3">
+          <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+          <div class="cert-info">
+            <span class="cert-name">BNY Spectrum Milestone Certificate</span>
+            <span class="cert-issuer">BNY</span>
+          </div>
+          <span class="cert-date">Aug 2025</span>
+        </div>
+        <div class="cert-row fade-up delay-4">
+          <div class="cert-icon"><i class="ph ph-certificate"></i></div>
+          <div class="cert-info">
+            <span class="cert-name">IBM Cognos Analytics V11.1.x Reporting Essentials</span>
+            <span class="cert-issuer">IBM</span>
+          </div>
+          <span class="cert-date">Feb 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       EDUCATION
+  ============================================= -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">05 — Academia</span>
+        <h2>Education</h2>
+      </div>
+      <div class="edu-timeline">
+
+        <div class="edu-item fade-up delay-1">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-connector"></div>
+          </div>
+          <div class="edu-body">
+            <span class="edu-degree">Master of Business Administration</span>
+            <h3>Lovely Professional University</h3>
+            <p class="edu-place"><i class="ph ph-map-pin"></i> Phagwara, Punjab</p>
+            <span class="edu-period">Aug 2025 – Present</span>
+          </div>
+        </div>
+
+        <div class="edu-item fade-up delay-2">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+          </div>
+          <div class="edu-body">
+            <span class="edu-degree">B.Sc. Computer Science (Honours)</span>
+            <h3>University of North Bengal</h3>
+            <p class="edu-place"><i class="ph ph-map-pin"></i> Siliguri, West Bengal</p>
+            <p class="edu-score">Percentage: <strong>86.7%</strong></p>
+            <span class="edu-period">Jul 2020 – Aug 2023</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       EXTRA-CURRICULAR
+  ============================================= -->
+  <section class="section extras">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">06 — Beyond Work</span>
+        <h2>Activities &amp; Achievements</h2>
+      </div>
+      <div class="extras-grid">
+
+        <div class="extra-card fade-up delay-1">
+          <div class="extra-icon"><i class="ph ph-trophy"></i></div>
+          <h4>Taekwondo — Runners Up</h4>
+          <p>District level Taekwondo Championship</p>
+          <span class="extra-date">Aug 2019</span>
+        </div>
+
+        <div class="extra-card fade-up delay-2">
+          <div class="extra-icon"><i class="ph ph-hands-clapping"></i></div>
+          <h4>National Service Scheme (NSS)</h4>
+          <p>Community service &amp; cleanliness drives as an active member</p>
+          <span class="extra-date">Jun 2021 – Aug 2023</span>
+        </div>
+
+        <div class="extra-card fade-up delay-3">
+          <div class="extra-icon"><i class="ph ph-presentation-chart"></i></div>
+          <h4>Society for Management Learning (SML)</h4>
+          <p>Event Manager — knowledge-sharing sessions and collaborative learning focused on leadership</p>
+          <span class="extra-date">Aug 2025 – Present</span>
+        </div>
+
+        <div class="extra-card fade-up delay-4">
+          <div class="extra-icon"><i class="ph ph-medal"></i></div>
+          <h4>SEBI Investor Awareness Test</h4>
+          <p>Certificate of Participation — Securities and Exchange Board of India</p>
+          <span class="extra-date">Sep 2025</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CONTACT
+  ============================================= -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-head fade-up">
+        <span class="section-tag">07 — Connect</span>
+        <h2>Get In Touch</h2>
+      </div>
+      <p class="contact-intro fade-up delay-1">
+        Open to data analyst roles, BI internships, and collaborative projects.
+      </p>
+      <div class="contact-grid fade-up delay-2">
+
+        <a href="tel:+917585913127" class="contact-tile">
+          <i class="ph ph-phone-call"></i>
+          <div>
+            <span class="ct-label">Phone</span>
+            <span class="ct-val">+91 75859 13127</span>
+          </div>
+        </a>
+
+        <a href="mailto:jaiswalchandni173@gmail.com" class="contact-tile">
+          <i class="ph ph-envelope-open"></i>
+          <div>
+            <span class="ct-label">Email</span>
+            <span class="ct-val">jaiswalchandni173@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="https://www.linkedin.com/in/chandnijaiswal" target="_blank" rel="noopener" class="contact-tile">
+          <i class="ph ph-linkedin-logo"></i>
+          <div>
+            <span class="ct-label">LinkedIn</span>
+            <span class="ct-val">chandnijaiswal</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="f-name">Chandni Jaiswal</span>
+      <span class="f-tagline">Data Analyst · MBA · LPU</span>
+      <span class="f-year" id="fyear"></span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
